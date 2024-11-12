@@ -3,7 +3,7 @@
 mkdir build
 cd build
 
-cmake .. -DCMAKE_INSTALL_PREFIX=${PREFIX}
+./configure --prefix=${PREFIX}
 
 make -j$(nproc)
 make install
