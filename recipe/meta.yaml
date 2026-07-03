@@ -36,6 +36,7 @@ requirements:
 
   host:
     - python>=3.6
+    - setuptools                   # distutils shim; python 3.12 removed distutils
     - lhapdf
 
   run:
