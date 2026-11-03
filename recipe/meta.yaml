@@ -33,6 +33,7 @@ requirements:
     
     - cmake                        # Build system
     - make                         # Make utility
+    - swig                         # Python bindings; Linux runners happen to have one, macOS ones do not
 
   host:
     - python>=3.6
